@@ -1,0 +1,47 @@
+melchizedek@melchizedek-ThinkBook-15-G2-ITL:~/Desktop/NW_PRAC/nwprac6$ gcc a6_01.c
+melchizedek@melchizedek-ThinkBook-15-G2-ITL:~/Desktop/NW_PRAC/nwprac6$ ./a.out
+server sockfd:3
+newsockfd for clint:4
+melchizedek@melchizedek-ThinkBook-15-G2-ITL:~/Desktop/NW_PRAC/nwprac6$
+
+
+
+
+
+
+melchizedek@melchizedek-ThinkBook-15-G2-ITL:~/Desktop/NW_PRAC/nwprac6$ gcc a6_02.c
+melchizedek@melchizedek-ThinkBook-15-G2-ITL:~/Desktop/NW_PRAC/nwprac6$ ./a.out
+connection setup with sockfd:3
+
+1: Concatinate
+2: Compare string
+3: Count length
+4: Copy string
+5: Reverse
+6: exit
+ Enter your chooice:	1
+
+ Enter the first string:abhishek
+
+ enter the second string:johnson
+CLINT reading at sockfd:output of Concatination is: abhishekjohnson
+
+1: Concatinate
+2: Compare string
+3: Count length
+4: Copy string
+5: Reverse
+6: exit
+ Enter your chooice:	3
+
+ Enter the first string:asherpereira
+CLINT reading at sockfd:output of counting the length is: 12
+
+1: Concatinate
+2: Compare string
+3: Count length
+4: Copy string
+5: Reverse
+6: exit
+ Enter your chooice:	6
+melchizedek@melchizedek-ThinkBook-15-G2-ITL:~/Desktop/NW_PRAC/nwprac6$

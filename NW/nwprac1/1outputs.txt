@@ -1,0 +1,17 @@
+melchizedek@melchizedek-ThinkBook-15-G2-ITL:~/Desktop/NW_PRAC/nwprac1$ gcc a1_01.c
+melchizedek@melchizedek-ThinkBook-15-G2-ITL:~/Desktop/NW_PRAC/nwprac1$ ./a.out
+Enter the IP address : 198.98.42.0
+It's a class C IP address
+melchizedek@melchizedek-ThinkBook-15-G2-ITL:~/Desktop/NW_PRAC/nwprac1$
+
+
+melchizedek@melchizedek-ThinkBook-15-G2-ITL:~/Desktop/NW_PRAC/nwprac1$ gcc a1_02.c
+melchizedek@melchizedek-ThinkBook-15-G2-ITL:~/Desktop/NW_PRAC/nwprac1$ ./a.out
+Enter the IP address : 198.168.130.24
+
+ Enter the subnet mask address : 255.255.255.224
+
+The network address is  	198.168.130.0
+
+ host ip address is 	 18 in hexadecimal
+melchizedek@melchizedek-ThinkBook-15-G2-ITL:~/Desktop/NW_PRAC/nwprac1$

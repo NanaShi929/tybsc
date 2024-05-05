@@ -1,0 +1,46 @@
+melchizedek@melchizedek-ThinkBook-15-G2-ITL:~/Desktop/NW_PRAC/nwprac2$ gcc a2_01.c
+melchizedek@melchizedek-ThinkBook-15-G2-ITL:~/Desktop/NW_PRAC/nwprac2$ ./a.out
+Character Stuffing
+enter the byte/characters' length
+4
+please enter the string
+A
+$
+$
+B
+SPECIAL CHARACTER USED FOR FRAME BOUNDRY IS $ 
+the output after Stuffing is   
+$A$$$$B$
+the output after D-Stuffing is   
+A$$B
+melchizedek@melchizedek-ThinkBook-15-G2-ITL:~/Desktop/NW_PRAC/nwprac2$
+
+
+
+
+
+melchizedek@melchizedek-ThinkBook-15-G2-ITL:~/Desktop/NW_PRAC/nwprac2$ gcc a2_02.c
+melchizedek@melchizedek-ThinkBook-15-G2-ITL:~/Desktop/NW_PRAC/nwprac2$ ./a.out
+Bit Stuffing
+enter the bit length
+12
+please enter the sequence of bits(0 and 1) for transmission
+1
+1
+0
+1
+1
+1
+1
+1
+1
+1
+0
+0
+the output after bit stuffing is 
+01111110110111110110001111110
+1101111101100
+The sequence of bits after de-stuffing is
+the output after D-Stuffing is   
+11011111110
+melchizedek@melchizedek-ThinkBook-15-G2-ITL:~/Desktop/NW_PRAC/nwprac2$

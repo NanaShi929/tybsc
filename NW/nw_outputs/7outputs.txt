@@ -1,0 +1,26 @@
+melchizedek@melchizedek-ThinkBook-15-G2-ITL:~/Desktop/NW_PRAC/nwprac7$ gcc a7_02.c
+melchizedek@melchizedek-ThinkBook-15-G2-ITL:~/Desktop/NW_PRAC/nwprac7$ ./a.out
+server sockfd:3
+server reading from sockfd:hello world
+server reading from sockfd:C is the best programming language
+over
+melchizedek@melchizedek-ThinkBook-15-G2-ITL:~/Desktop/NW_PRAC/nwprac7$
+
+
+
+
+
+
+
+melchizedek@melchizedek-ThinkBook-15-G2-ITL:~/Desktop/NW_PRAC/nwprac7$ gcc a7_01.c
+melchizedek@melchizedek-ThinkBook-15-G2-ITL:~/Desktop/NW_PRAC/nwprac7$ ./a.out
+connection setup with sockfd:3
+CLINT:hello world
+CLIENT READING at sockfd:hello world
+SERVER READING
+CLINT:C is the best programming language
+CLIENT READING at sockfd:C is the best programming language
+SERVER READING
+CLINT:exit
+melchizedek@melchizedek-ThinkBook-15-G2-ITL:~/Desktop/NW_PRAC/nwprac7$
+

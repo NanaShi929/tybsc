@@ -1,0 +1,28 @@
+melchizedek@melchizedek-ThinkBook-15-G2-ITL:~/Desktop/NW_PRAC/nwprac4$ gcc ss_str.c
+melchizedek@melchizedek-ThinkBook-15-G2-ITL:~/Desktop/NW_PRAC/nwprac4$ ./a.out
+Server sockfd:3
+newsockfd for client:4
+SERVER reading from sockfd:hello world
+SERVER reading from sockfd:I AM TIME
+SERVER reading from sockfd:I HAVE NO BEGINNING NOR END
+Client closed the connection
+melchizedek@melchizedek-ThinkBook-15-G2-ITL:~/Desktop/NW_PRAC/nwprac4$
+
+
+
+
+
+
+
+
+melchizedek@melchizedek-ThinkBook-15-G2-ITL:~/Desktop/NW_PRAC/nwprac4$ gcc sc_str.c
+melchizedek@melchizedek-ThinkBook-15-G2-ITL:~/Desktop/NW_PRAC/nwprac4$ ./a.out
+Connection setup with sockfd:3
+CLIENT:hello world
+CLIENT reading at sockfd: hello world
+CLIENT:I AM TIME
+CLIENT reading at sockfd: I AM TIME
+CLIENT:I HAVE NO BEGINNING NOR END
+CLIENT reading at sockfd: I HAVE NO BEGINNING NOR END
+CLIENT:exit
+melchizedek@melchizedek-ThinkBook-15-G2-ITL:~/Desktop/NW_PRAC/nwprac4$

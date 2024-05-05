@@ -1,0 +1,46 @@
+melchizedek@melchizedek-ThinkBook-15-G2-ITL:~/Desktop/NW_PRAC/nwprac9$ gcc a9_01.c
+melchizedek@melchizedek-ThinkBook-15-G2-ITL:~/Desktop/NW_PRAC/nwprac9$ ./a.out
+server sockfd:3
+server serverp:1654882992
+
+
+
+
+
+
+melchizedek@melchizedek-ThinkBook-15-G2-ITL:~/Desktop/NW_PRAC/nwprac9$ gcc a9_02.c
+melchizedek@melchizedek-ThinkBook-15-G2-ITL:~/Desktop/NW_PRAC/nwprac9$ ./a.out
+connection setup with sockfd:3
+
+1: Concatinate
+2: Compare string
+3: Count length
+4: Copy string
+5: Reverse
+6: exit
+ Enter your chooice:	1
+
+ Enter the first string:hello
+
+ enter the second string: world
+CLINT reading at sockfd:output of Concatination is: helloworld
+
+1: Concatinate
+2: Compare string
+3: Count length
+4: Copy string
+5: Reverse
+6: exit
+ Enter your chooice:	5
+
+ Enter the first string:malayalam
+CLINT reading at sockfd:output of reversing the string is: malayalam
+
+1: Concatinate
+2: Compare string
+3: Count length
+4: Copy string
+5: Reverse
+6: exit
+ Enter your chooice:	6
+melchizedek@melchizedek-ThinkBook-15-G2-ITL:~/Desktop/NW_PRAC/nwprac9$ 

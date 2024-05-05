@@ -1,0 +1,47 @@
+melchizedek@melchizedek-ThinkBook-15-G2-ITL:~/Desktop/NW_PRAC/nwprac8$ gcc a8_02.c
+melchizedek@melchizedek-ThinkBook-15-G2-ITL:~/Desktop/NW_PRAC/nwprac8$ ./a.out
+server sockfd:3
+
+
+
+
+
+
+
+
+
+melchizedek@melchizedek-ThinkBook-15-G2-ITL:~/Desktop/NW_PRAC/nwprac8$ gcc a8_01.c
+melchizedek@melchizedek-ThinkBook-15-G2-ITL:~/Desktop/NW_PRAC/nwprac8$ ./a.out
+connection setup with sockfd:3
+
+1: Addition
+2: substraction
+3: Multiplication
+4: Division
+5: exit
+ Enter your chooice:	3
+
+ Enter the first operand:13
+
+ enter the second operand:17
+CLINT reading at sockfd:output of multiplication:221
+
+1: Addition
+2: substraction
+3: Multiplication
+4: Division
+5: exit
+ Enter your chooice:	4
+
+ Enter the first operand:100     
+
+ enter the second operand:4
+CLINT reading at sockfd:output of division:25
+
+1: Addition
+2: substraction
+3: Multiplication
+4: Division
+5: exit
+ Enter your chooice:	5
+melchizedek@melchizedek-ThinkBook-15-G2-ITL:~/Desktop/NW_PRAC/nwprac8$ 

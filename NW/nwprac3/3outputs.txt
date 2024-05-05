@@ -1,0 +1,36 @@
+melchizedek@melchizedek-ThinkBook-15-G2-ITL:~/Desktop/NW_PRAC/nwprac3$ gcc a3_01.c
+melchizedek@melchizedek-ThinkBook-15-G2-ITL:~/Desktop/NW_PRAC/nwprac3$ ./a.out
+Enter the size of the data
+3000
+Enter the size of the Maximum Transfer Unit (MTU-20) should be a multiple of 8 
+500
+melchizedek@melchizedek-ThinkBook-15-G2-ITL:~/Desktop/NW_PRAC/nwprac3$ 
+
+
+
+
+
+
+
+
+melchizedek@melchizedek-ThinkBook-15-G2-ITL:~/Desktop/NW_PRAC/nwprac3$ gcc a3_02.c
+melchizedek@melchizedek-ThinkBook-15-G2-ITL:~/Desktop/NW_PRAC/nwprac3$ ./a.out
+File opened successfully..
+
+Processing..
+
+
+ file contents are as follows
+ 1    X    1    0    480
+ 2    X    1    480    480
+ 3    X    1    960    480
+ 4    X    1    1440    480
+ 5    X    1    1920    480
+ 6    X    1    2400    480
+ 7    X    1    2880    480
+ 8    X    0    3000    120
+There are 8 fragments in the file
+Packet reassembled
+
+Size of packet= 3000 
+melchizedek@melchizedek-ThinkBook-15-G2-ITL:~/Desktop/NW_PRAC/nwprac3$ 
