@@ -1,0 +1,30 @@
+<html>
+
+<body>
+    Name: <input type="text" id="stuName" required /> <br>
+    Age: <input type="number" id="age" max="70" min="20" required /> <br>
+    <button onclick="val()">OK</button>
+
+    <script>
+        function val() {
+            var errMsg = ""
+            var objName = document.getElementById("stuName")
+            var objAge = document.getElementById("age")
+            if (objName.validity.valueMissing)
+                errMsg += "Name cannot be blank <br>"
+            if (objAge.validity.valueMissing)
+                errMsg += "Age cannot be blank <br>"
+            if (objAge.validity.rangeOverflow)
+                errMsg += "Age value too high <br>"
+            if (objAge.validity.rangeUnderflow)
+                errMsg += "Age value too low <br>"
+            if (objName.checkValidity() && objAge.checkValidity())
+                errMsg += "Everything fine"
+            document.getElementById("sec1").innerHTML = errMsg
+
+        }
+    </script>
+    <div id="sec1"></div>
+</body>
+
+</html>

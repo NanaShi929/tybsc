@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="div1"></div>
+    <script>
+        var cars=['bmw','rimac','porsche'];
+        text="<ul><font color='red'>";
+            for(x of cars)
+                text+="<li>"+x+"</li>";
+        text+="</font></ul>"
+        document.getElementById("div1").innerText=text;
+        document.write(text)
+    </script>
+</body>
+</html>

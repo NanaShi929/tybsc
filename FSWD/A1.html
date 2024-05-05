@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table id="bankdetails">
+        
+            <tr>
+<th> Name </th>
+<th>Address</th>
+<th>Balance</th>
+            </tr>
+
+        <tr>
+            <td id="name"></td>
+            <td id="address"></td>
+            <td id="balance"></td>
+        </tr>
+    </table>
+    <!-- <div id="name"></div>
+    <div id="address"></div>
+    <div id="balance"></div> -->
+    <script>
+        let bd=document.getElementById("bankdetails")
+        let n=document.getElementById("name")
+        let a=document.getElementById("address")
+        let b=document.getElementById("balance")
+    let name = prompt("enter name  ")
+        let address = prompt("enter address   ")
+        let balance = parseInt(prompt("enter balance"))
+        let interest
+
+
+//year should also be mentioned
+        function bankdetails(customer, simpleinterest) {
+
+
+
+
+            if (balance < 100000) {
+                interest = balance * 0.05
+                balance = balance + interest
+
+            } 
+            else {
+                interest = balance * 0.07
+                balance = balance + interest
+            }
+            // console.log(balance)
+        }
+        // console.log(customer)
+
+        bankdetails()
+        const customer = {
+            name: n.innerHTML=`${name}`,
+            address: a.innerHTML=`${address}`,
+            balance: b.innerHTML=`${balance}`
+        }
+        bd=localStorage.setItem('customer')
+        console.log(customer)
+    </script>
+</body>
+</html>

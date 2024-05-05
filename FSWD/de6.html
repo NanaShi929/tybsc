@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Fruits List</h1>
+    <div id="sec1"> </div>
+    
+    <script>
+        var fruits = ['mango', 'Grapes', 'Kiwi', 'Banana']
+        var inp = prompt('enter value')
+        var str = "<ul><font color='red'>"
+        // for (x of fruits)
+        for (i = 0; i < fruits.length; i++)
+            str = str + "<li>" + fruits[i] + "</li>"
+        str = str + "</font></ul>"
+        document.write(inp)
+        document.getElementById("sec1").innerHTML = str
+    </script>
+    <div id="sec2"></div>
+    <script>
+        document.getElementById("sec2").innerHTML = fruits.join("*")
+    </script>
+</body>
+</html>
