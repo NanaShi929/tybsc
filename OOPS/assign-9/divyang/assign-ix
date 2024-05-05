@@ -1,0 +1,9 @@
+A physically challenged is considered as Divyang person in India.
+ Each registered divyang is issued an UDID card on which there is a ID, divyang percentage like a person
+who can not see at all will have 100 percentage value.
+Each divyang is eligible for a certain amount based on divyang percent as support from either of government (local and central).
+A divyang student admit to a school and is issued a skill attaind certificate so that it can seek for that type of employment.
+The suggested fields are as follows: Name, village/city, UDID id, divyang percent, state honararium, central honararium, Skill certificate, employed.
+The system wants to know how many divyangs receive state or central honararium, certain percent divyang count, employed divyang list,
+registered as divyang
+Write the java program to automate this scenario.

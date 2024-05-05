@@ -1,0 +1,11 @@
+The students are eligible to appear for Semester End Examination if they appear for 2 Intra Semester Assessment.
+If the student fails to appear for SEE or Pract so also if the student gets F grade then the student have to appear for SEE as well as Pract again.
+ 40% marks will have P grade and below it will be given F grade. If the student fails to appear for 2 isa the total marks will be shown as
+ AB and grade will be F. If the student remain absent for SEE or Pract the marks in it will be AB so also Total wil be AB and grade will be F.
+
+
+The suggested fields are as follows:Rollno,Student Name,Subject code,Subject name,Maximum marks,ISA-1 marks,ISA-2 marks,ISA marks,SEE marks,Pract marks,
+Total Marks, Grade.
+The exam committee want to know how many students have cleared the subject, how many have failed to be eligible for SEE and Pract,
+how many have not appeared for SEE,
+how many have not appeared for Pract, how many subjects were there, list of students subject-wise.

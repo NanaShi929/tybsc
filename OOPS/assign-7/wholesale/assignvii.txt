@@ -1,0 +1,8 @@
+A wholeseller wants to maintain it's sales details. The customer have a TIN(gst id) no which is 15 characters long. 
+The bill has serial number based on gst percentage calculation.
+The Gst is CGST and SGST computed as 5%, 12% and 18% on the bill amount. Gst do not have paise digits. 
+The suggested fields are as follows: TIN, Bill Date, Customer name, Bill number, Bill amount, CGST, SGST, Narration.//GstBill.java
+Wholeseller wants to know total CGST to be paid in a month, total sgst to be paid in a month, total bills in a month,
+list of customers not having TIN, Total gross amount of 5%,
+Total gross amount of 12%, Total gross amount of 18%.
+Write the java program to automate this scenario.

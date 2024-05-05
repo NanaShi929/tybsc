@@ -1,0 +1,6 @@
+Create a class student details with instance variables  student_id, name, marks (M1,m2,m3) in 3 subjects. Create methods to set the values of the instance variables and to compute the average and the grades. Also a method to display all the details including the grade obtained.
+Grade may be computed as follows:
+If avg gr than eq 70  - A
+Avg bet 50 and 70 - B
+Else
+Fail

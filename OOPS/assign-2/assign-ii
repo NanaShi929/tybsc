@@ -1,0 +1,3 @@
+In TestOwl class only one getter method is used. Your task is to demo usage of all getter methods. Alter the attributes of Owl and InheritOwl instance and display these altered values back.
+
+Implement the TestPeacock class similar to TestOwl class.

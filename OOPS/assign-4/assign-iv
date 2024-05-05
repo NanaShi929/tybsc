@@ -1,0 +1,6 @@
+An employee of an organisation has basic pay, travelling allowance, dearness allowance,  house rent allowance.
+Dearness allowance is computed at certain percentage on bp and ta. The part computed on bp is shown as da and that computed on ta is shown added in ta.
+There is mandatory deduction of minimum 6% gpf and ₹120 insurance. Certain amount is deducted as incomtax.
+Annually an increase of 3% in basic pay which is rounded to nearer 10.Design and implement a java solution to automate this process.
+Employee profile will include name, title, post held, institute name.
+Salary slip include month year, bp, da, hra, ta as income and deductions as mentioned above.

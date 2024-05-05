@@ -1,0 +1,5 @@
+A shopping complex rents out the shops in it's complex to the Vendor/s who have pay a Liense fee with certain percentage amount on it as
+cgst and sgst by 5th of every month.If this amount(License fee + cgst + sgst) is not paid then on the balance amount the Interest is charged at certain
+percents and int cgst, int sgst on the interest. The total amount is considered as Bill amount(License fee, cgst, sgst, Interest, int cgst, int sgst).
+The suggested fields  are as follows: Vendor, Bill Amount, License Fee, cgst, sgst, Interest, Interest cgst, Interest sgst
+The complex owner wants to know how much is the collection made, Balance to be received, Interest GST, License GST.

@@ -1,0 +1,8 @@
+The exam committee allocates the supervision duties to the available teaching staff of the institute.
+The care is taken that each faculty should not be allocated more than 5 duties.
+The exam will have a start date and end date without any holidays in between except sundays. Faculty is not allocated duty in their own subjects.
+A faculty is not allocated duty provided if it is not sick, not on duty leave and not the member of examination committee.
+The duty is not allocated in both sessions on a day.
+The suggested fields are as follows: Name, faculty type, subjectname, examdate, examday, session, subjectexam
+The exam committee would like to know faculty wise list, date-wise faculty list, faculty on duty leave, faculty that are sick, faculty-wise supervision count
+Write the java program to automate this scenario.

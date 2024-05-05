@@ -1,0 +1,8 @@
+A research scholar refers to many articles (research paper, conference paper).
+Each of this article have authors (First author, supportive authors, Guide), citation count >= 0.
+Research paper is published in journal whereas conference paper is published in conference procedings.
+Each of this may or may not have any importance to the researcher in
+it's work. A required article is assigned a unique citation key and remark.
+The suggested fields are as follows: Article title, journal, conference, Published year, First Author, supportive authors, Guide, citation key, remark.
+The research scholar want to know the total articles having citation key, titlewise remarks, Guides, First authors, Journal name and citation count,
+conference name and citation count .Write the java program to automate this scenario.
